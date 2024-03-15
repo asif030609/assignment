@@ -29,7 +29,7 @@ void applyPriceDiscount(fruits,p){
   for(var fruit in fruits){
     double fruitPrice=fruit['Price'];
     double discountedPrice = fruitPrice - (fruitPrice * (p/100));
-    print("Name: ${fruit['name']}, Color: ${fruit['color']}, Price: \$$discountedPrice");
+    print("Name: ${fruit['Name']}, Color: ${fruit['Color']}, Price: \$$discountedPrice");
   }
 
 }
